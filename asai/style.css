@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+ 
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    height: 80px;
+    background-image: url("Pattern-02.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 10px 5px -5px rgba(0,0,0,.2);
+}
+
+
+
+li {
+    align-self: flex-end;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(5, 111, 138);
+}
+
+#middle-blog {
+    margin: 0px;
+    height: 250px;
+    background-image: url("asai ad-04.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-property: height;
+    transition-duration: 700ms;
+    transition-timing-function: ease-in;
+    
+}
+
+#middle-blog:hover {
+    height: 550px;
+
+}
+
+#description {
+    color: white;
+    bottom: 0;
+}
